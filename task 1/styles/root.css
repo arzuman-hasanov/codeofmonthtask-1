@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Work+Sans:wght@100;200;300;400;500;600;800;900&display=swap');
+
+
+:root {
+
+
+    --h1: 40px;
+    --h2: 32px;
+    --h3: 28px;
+    --h4: 24px;
+    --h5: 20px;
+    --h6: 16px;
+
+    --font-1: 'Crimson Text', serif;
+    --font-2: 'Work Sans', sans-serif;
+
+    --color-dark: #212529;
+    --color-white: #FFFFFF;
+    --color-green: #74C69D;
+
+}
+
+.text-white {
+    color: var(--color-white);
+}
+
+.text-dark {
+    color: var(--color-dark);
+}
+
+.text-green {
+    color: var(--color-green);
+}
+
+.crimson {
+    font-family: var(--font-1);
+}
+
+.work-sans {
+    font-family: var(--font-2);
+}
