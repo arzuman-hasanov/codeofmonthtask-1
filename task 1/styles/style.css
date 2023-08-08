@@ -6,6 +6,16 @@
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar
+{
+    width: 0.5rem;
+}
+::-webkit-scrollbar-thumb
+{
+    background: rgb(65, 218, 141);
+    border-radius: 1rem;
+}
+
 .d-flex {
   display: flex;
   justify-content: space-between;
